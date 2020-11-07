@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Iframe</title>
+</head>
+<body>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .background_container{
+            width:700px;
+            height:840px;
+            background-image: url('https://nsa40.casimages.com/img/2020/11/06/201106023429699835.png') ;
+            position: absolute;
+        }
+        .background_int{
+            background-color: #1d1d1d ;
+            border: 2px solid #9c7d00;
+            height: 700px;
+            width: 650px;
+            position:relative;
+            margin:5% 3.5%;
+            text-align:center;
+        }
+        h1{
+            color:#0b5362;
+            margin-bottom:1%;
+        }
+        ul{
+            list-style-type: none;
+            display:flex;
+            justify-content: space-between;
+            width:70%;
+            margin-left:50%;
+            transform:translate(-55%);
+        }
+        li{
+            margin:-5% 0%;
+        }
+        li img:hover{
+            cursor:grab;
+            transform:translate(0%,5%);
+        }
+        .content{
+            height:580px;
+            width:595px;
+            margin-left:50% ;
+            transform:translate(-50%);
+            padding:2%;
+            background-color: #c2c2c2;
+            overflow:auto;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        .content::-webkit-scrollbar{
+            display:none;
+        }
+        #couverture{
+            position:absolute;
+            top:0;
+            opacity:1;
+            transition: opacity 1s;
+        }
+        p{
+            font-family:'Calibri',sans-serif;
+            text-align:justify;
+            text-justify: inter-word;
+            opacity: 1;
+            transition: opacity 1s
+        }
+        h2{
+            font-family:'Calibri', sans-serif;
+            opacity: 1;
+            transition: opacity 1s
+        }
+        span{
+            color: white;
+            font-family: Helvetica, sans-serif;
+            opacity: 1;
+            transition: opacity 1s
+        }
+        #closeButton{
+            display:none;
+            position:absolute;
+            top:50px;
+            left:90%;
+        }
+        #closeButton:hover{
+            cursor:grab;
+        }
+    </style>
+    <div class="background_container">
+        <div class="background_int">
+            <h1>SEA OF BONES</h1>
+            <span id ="subtitle"> le contexte</span>
+            <div class="content">
+                <h2 id="titleContent"> test title button 1</h2>
+                <p id="stringContent">Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de </p>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <img src="https://nsa40.casimages.com/img/2020/11/06/201106030347789290.png" id="button1" alt="bouton 1" onclick="addContent(1)">
+                </li>
+                <li>
+                    <img src="https://nsa40.casimages.com/img/2020/11/06/201106030347730691.png" id="button2" alt="bouton 2" onclick="addContent(2)">
+                </li>
+                <li>
+                    <img src="https://nsa40.casimages.com/img/2020/11/06/20110603034844182.png" id="button3" alt="bouton 3" onclick="addContent(3)">
+                </li>
+                <li>
+                    <img src="https://nsa40.casimages.com/img/2020/11/06/201106030348304854.png" id="button4" alt="bouton 4" onclick="addContent(4)">
+                </li>
+            </ul>
+        </div>
+        <div class="couverture">
+            <img src="https://nsa40.casimages.com/img/2020/11/06/201106034236265409.gif" alt="couverture" id="couverture" onclick="disappearCouverture()"> 
+        </div>
+        <div>
+            <img src="https://nsa40.casimages.com/img/2020/11/06/201106054121710382.png" onclick="appearCouverture()" id="closeButton">
+        </div>
+    </div>
+    
+       
+    <script>
+    const stringButton1 = "Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892.Après avoir passé sa jeunesse en France, il fonda en 1839 à New York un journal français, L’Indicateur, qui ne dura qu'une année. Devenu médecin à Pointe-à-Pitre, il y était lorsque la ville fut détruite par un tremblement de terre en 1843. Il partit alors pour La Nouvelle-Orléans où il reprit le journal hebdomadaire La Chronique en 1849. Il y écrivit des séries de feuilletons, sous le titre de Veillées louisianaises, qui rencontrèrent du succès et qui le décidèrent à poursuivre une carrière littéraire. Il publia ainsi des recueils de poésies et des romans. Influencé par le marxisme, il fut l'un des fondateurs de l’Internationale de La Nouvelle-Orléans et son secrétaire, et fonda même un journal marxiste, l’Équité, en 1871. Il mourut toutefois dans l'oubli, appauvri, en 1892."
+    const titleButton1 =" test title button 1"
+    const stringButton2 = "loremipsum button 2"
+    const titleButton2 = "test title button2"
+    const stringButton3 = "Lorem button 3"
+    const titleButton3 =" test title button 3"
+    const stringButton4 = "loremipsum button 4"
+    const titleButton4 = "test title button4"
+    const titleContent = document.getElementById("titleContent");
+    const stringContent = document.getElementById("stringContent");
+    const subtitle = document.getElementById("subtitle");
+    /* button1.addEventListener("click",function(){
+        console.log("le button 1 marche")
+        titleContent.innerHTML=titleButton1;
+        stringContent.innerHTML=stringButton1;
+    }) */
+    function appearCouverture(){
+        const couverture = document.getElementById("couverture");
+        const closeButton = document.getElementById("closeButton");
+        closeButton.style.display = "none";
+        couverture.style.display = "block";
+
+        setTimeout(function(){
+            couverture.style.opacity = "1";
+        },100);
+    }
+    function disappearCouverture(){
+        const couverture = document.getElementById("couverture")
+        const closeButton = document.getElementById("closeButton");
+        closeButton.style.display = "block";
+        couverture.style.opacity = "0";
+        setTimeout(function(){
+            couverture.style.display = "none";
+        },600);
+        
+    }
+    function addContent(buttonNumber){
+        if(buttonNumber == 1){
+            stringContent.style.opacity = "0";
+            titleContent.style.opacity = "0";
+            subtitle.style.opacity ="0"
+            setTimeout(function(){
+                titleContent.innerHTML = titleButton1;
+                stringContent.innerHTML = stringButton1;
+                subtitle.innerHTML = "le contexte";
+                stringContent.style.opacity = "1";
+                titleContent.style.opacity = "1";
+                subtitle.style.opacity ="1"
+                },500)
+            
+        }
+        if(buttonNumber == 2){
+            
+            stringContent.style.opacity = "0";
+            titleContent.style.opacity = "0";
+            subtitle.style.opacity ="0"
+            setTimeout(function(){
+                titleContent.innerHTML = titleButton2;
+                stringContent.innerHTML = stringButton2;
+                subtitle.innerHTML = "le concept";
+                stringContent.style.opacity = "1";
+                titleContent.style.opacity = "1";
+                subtitle.style.opacity ="1"
+                },500)
+
+        }
+        if(buttonNumber == 3){
+            stringContent.style.opacity = "0";
+            titleContent.style.opacity = "0";
+            subtitle.style.opacity ="0"
+            setTimeout(function(){
+                titleContent.innerHTML = titleButton3;
+                stringContent.innerHTML = stringButton3;
+                subtitle.innerHTML = "les annexes";
+                stringContent.style.opacity = "1";
+                titleContent.style.opacity = "1";
+                subtitle.style.opacity ="1"
+                },500)
+            
+
+        }
+        if(buttonNumber == 4){
+            stringContent.style.opacity = "0";
+            titleContent.style.opacity = "0";
+            subtitle.style.opacity ="0"
+            setTimeout(function(){
+                titleContent.innerHTML = titleButton4;
+                stringContent.innerHTML = stringButton4;
+                subtitle.innerHTML = "avancement";
+                stringContent.style.opacity = "1";
+                titleContent.style.opacity = "1";
+                subtitle.style.opacity ="1"
+                },500)
+
+        }
+    }
+    
+    </script>
+</body>
+</html>
